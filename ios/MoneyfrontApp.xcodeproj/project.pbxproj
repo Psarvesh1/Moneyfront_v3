@@ -32,10 +32,10 @@
 		18F142502B56892900F5E39B /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18F142302B56762E00F5E39B /* SimpleLineIcons.ttf */; };
 		18F142512B56892900F5E39B /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18F142382B56762E00F5E39B /* Zocial.ttf */; };
 		4066F5855D7842759E416404 /* ARLRDBD.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3356714EBB64FCB992AEEDA /* ARLRDBD.ttf */; };
-		5C7EE636414362D0A619D80E /* libPods-MoneyfrontApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D5DCD479BA62A557D1F3DE62 /* libPods-MoneyfrontApp.a */; };
 		819589D053A0478FAE432BEF /* proxima-nova.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0AE3959EC0E94175AFCBC3EE /* proxima-nova.ttf */; };
 		9A09EB982CE8438EA7F71E9A /* BootSplash.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC83B391BF5B4FA8847325B8 /* BootSplash.storyboard */; };
-		E91A1036586ECEFA4AF1A724 /* libPods-MoneyfrontApp-MoneyfrontAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0735D8B605A8D2A764DDB378 /* libPods-MoneyfrontApp-MoneyfrontAppTests.a */; };
+		A4B1DCD7F677AFBBEF3D07AA /* libPods-MoneyfrontApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6138E7FC66832E04E7BF4376 /* libPods-MoneyfrontApp.a */; };
+		CE6D5B4D9F2FFFAAF0AE6F72 /* libPods-MoneyfrontApp-MoneyfrontAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FED6CB2F94AA6E347F49A7F6 /* libPods-MoneyfrontApp-MoneyfrontAppTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,8 +52,6 @@
 		00E356EE1AD99517003FC87E /* MoneyfrontAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoneyfrontAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* MoneyfrontAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoneyfrontAppTests.m; sourceTree = "<group>"; };
-		05058DBF60B50E1699D030E4 /* Pods-MoneyfrontApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoneyfrontApp.release.xcconfig"; path = "Target Support Files/Pods-MoneyfrontApp/Pods-MoneyfrontApp.release.xcconfig"; sourceTree = "<group>"; };
-		0735D8B605A8D2A764DDB378 /* libPods-MoneyfrontApp-MoneyfrontAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MoneyfrontApp-MoneyfrontAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AE3959EC0E94175AFCBC3EE /* proxima-nova.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "proxima-nova.ttf"; path = "../assets/fonts/proxima-nova.ttf"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* MoneyfrontApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoneyfrontApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = MoneyfrontApp/AppDelegate.h; sourceTree = "<group>"; };
@@ -81,13 +79,15 @@
 		18F1423C2B56762E00F5E39B /* Fontisto.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Fontisto.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf"; sourceTree = "<group>"; };
 		18F1423D2B56762E00F5E39B /* FontAwesome6_Solid.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FontAwesome6_Solid.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome6_Solid.ttf"; sourceTree = "<group>"; };
 		18F1423E2B56762E00F5E39B /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FontAwesome5_Brands.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
-		89E13AA62B7F4CF397455513 /* Pods-MoneyfrontApp-MoneyfrontAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoneyfrontApp-MoneyfrontAppTests.release.xcconfig"; path = "Target Support Files/Pods-MoneyfrontApp-MoneyfrontAppTests/Pods-MoneyfrontApp-MoneyfrontAppTests.release.xcconfig"; sourceTree = "<group>"; };
-		92C95AD60CC622E37BAF5563 /* Pods-MoneyfrontApp-MoneyfrontAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoneyfrontApp-MoneyfrontAppTests.debug.xcconfig"; path = "Target Support Files/Pods-MoneyfrontApp-MoneyfrontAppTests/Pods-MoneyfrontApp-MoneyfrontAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1E78690B924B6956743145D7 /* Pods-MoneyfrontApp-MoneyfrontAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoneyfrontApp-MoneyfrontAppTests.release.xcconfig"; path = "Target Support Files/Pods-MoneyfrontApp-MoneyfrontAppTests/Pods-MoneyfrontApp-MoneyfrontAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		349104081C0D92E2A8A63A24 /* Pods-MoneyfrontApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoneyfrontApp.release.xcconfig"; path = "Target Support Files/Pods-MoneyfrontApp/Pods-MoneyfrontApp.release.xcconfig"; sourceTree = "<group>"; };
+		6138E7FC66832E04E7BF4376 /* libPods-MoneyfrontApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MoneyfrontApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3356714EBB64FCB992AEEDA /* ARLRDBD.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = ARLRDBD.ttf; path = ../assets/fonts/ARLRDBD.ttf; sourceTree = "<group>"; };
+		B74B039087C110E4EA8172E6 /* Pods-MoneyfrontApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoneyfrontApp.debug.xcconfig"; path = "Target Support Files/Pods-MoneyfrontApp/Pods-MoneyfrontApp.debug.xcconfig"; sourceTree = "<group>"; };
 		CC83B391BF5B4FA8847325B8 /* BootSplash.storyboard */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = BootSplash.storyboard; path = MoneyfrontApp/BootSplash.storyboard; sourceTree = "<group>"; };
-		CDBD56DB26F4A343D68F3B09 /* Pods-MoneyfrontApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoneyfrontApp.debug.xcconfig"; path = "Target Support Files/Pods-MoneyfrontApp/Pods-MoneyfrontApp.debug.xcconfig"; sourceTree = "<group>"; };
-		D5DCD479BA62A557D1F3DE62 /* libPods-MoneyfrontApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MoneyfrontApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDE0204D6746E2B62C0CE035 /* Pods-MoneyfrontApp-MoneyfrontAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoneyfrontApp-MoneyfrontAppTests.debug.xcconfig"; path = "Target Support Files/Pods-MoneyfrontApp-MoneyfrontAppTests/Pods-MoneyfrontApp-MoneyfrontAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		FED6CB2F94AA6E347F49A7F6 /* libPods-MoneyfrontApp-MoneyfrontAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MoneyfrontApp-MoneyfrontAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E91A1036586ECEFA4AF1A724 /* libPods-MoneyfrontApp-MoneyfrontAppTests.a in Frameworks */,
+				CE6D5B4D9F2FFFAAF0AE6F72 /* libPods-MoneyfrontApp-MoneyfrontAppTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,7 +103,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C7EE636414362D0A619D80E /* libPods-MoneyfrontApp.a in Frameworks */,
+				A4B1DCD7F677AFBBEF3D07AA /* libPods-MoneyfrontApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -171,8 +171,8 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				D5DCD479BA62A557D1F3DE62 /* libPods-MoneyfrontApp.a */,
-				0735D8B605A8D2A764DDB378 /* libPods-MoneyfrontApp-MoneyfrontAppTests.a */,
+				6138E7FC66832E04E7BF4376 /* libPods-MoneyfrontApp.a */,
+				FED6CB2F94AA6E347F49A7F6 /* libPods-MoneyfrontApp-MoneyfrontAppTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -222,10 +222,10 @@
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				CDBD56DB26F4A343D68F3B09 /* Pods-MoneyfrontApp.debug.xcconfig */,
-				05058DBF60B50E1699D030E4 /* Pods-MoneyfrontApp.release.xcconfig */,
-				92C95AD60CC622E37BAF5563 /* Pods-MoneyfrontApp-MoneyfrontAppTests.debug.xcconfig */,
-				89E13AA62B7F4CF397455513 /* Pods-MoneyfrontApp-MoneyfrontAppTests.release.xcconfig */,
+				B74B039087C110E4EA8172E6 /* Pods-MoneyfrontApp.debug.xcconfig */,
+				349104081C0D92E2A8A63A24 /* Pods-MoneyfrontApp.release.xcconfig */,
+				CDE0204D6746E2B62C0CE035 /* Pods-MoneyfrontApp-MoneyfrontAppTests.debug.xcconfig */,
+				1E78690B924B6956743145D7 /* Pods-MoneyfrontApp-MoneyfrontAppTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -237,12 +237,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "MoneyfrontAppTests" */;
 			buildPhases = (
-				A617AC866AA6CA72BDAB6E53 /* [CP] Check Pods Manifest.lock */,
+				70DD40B5C39BC5F9EAF56B17 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				BA567DC381B4C6328D1654ED /* [CP] Embed Pods Frameworks */,
-				D6F1813B17C8B3262192ACA2 /* [CP] Copy Pods Resources */,
+				716CEDAFA37A164275E52AAE /* [CP] Embed Pods Frameworks */,
+				FA58DED430306BC6411B3EDB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -258,13 +258,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "MoneyfrontApp" */;
 			buildPhases = (
-				E510890EEC641BA02C358B86 /* [CP] Check Pods Manifest.lock */,
+				76F9C46679B7BF41B2C8A2D7 /* [CP] Check Pods Manifest.lock */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				3B7289C53861A61EF7D16E40 /* [CP] Embed Pods Frameworks */,
-				361EAA2E6484EBCDA07864AF /* [CP] Copy Pods Resources */,
+				01C37A655FBDC05263CD35C7 /* [CP] Embed Pods Frameworks */,
+				6CBB9A0DC92F587B018F3D18 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -369,24 +369,7 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
 		};
-		361EAA2E6484EBCDA07864AF /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MoneyfrontApp/Pods-MoneyfrontApp-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MoneyfrontApp/Pods-MoneyfrontApp-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MoneyfrontApp/Pods-MoneyfrontApp-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		3B7289C53861A61EF7D16E40 /* [CP] Embed Pods Frameworks */ = {
+		01C37A655FBDC05263CD35C7 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -403,7 +386,24 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MoneyfrontApp/Pods-MoneyfrontApp-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A617AC866AA6CA72BDAB6E53 /* [CP] Check Pods Manifest.lock */ = {
+		6CBB9A0DC92F587B018F3D18 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MoneyfrontApp/Pods-MoneyfrontApp-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MoneyfrontApp/Pods-MoneyfrontApp-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MoneyfrontApp/Pods-MoneyfrontApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		70DD40B5C39BC5F9EAF56B17 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -425,7 +425,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		BA567DC381B4C6328D1654ED /* [CP] Embed Pods Frameworks */ = {
+		716CEDAFA37A164275E52AAE /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -442,24 +442,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MoneyfrontApp-MoneyfrontAppTests/Pods-MoneyfrontApp-MoneyfrontAppTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D6F1813B17C8B3262192ACA2 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MoneyfrontApp-MoneyfrontAppTests/Pods-MoneyfrontApp-MoneyfrontAppTests-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MoneyfrontApp-MoneyfrontAppTests/Pods-MoneyfrontApp-MoneyfrontAppTests-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MoneyfrontApp-MoneyfrontAppTests/Pods-MoneyfrontApp-MoneyfrontAppTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E510890EEC641BA02C358B86 /* [CP] Check Pods Manifest.lock */ = {
+		76F9C46679B7BF41B2C8A2D7 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -479,6 +462,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA58DED430306BC6411B3EDB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MoneyfrontApp-MoneyfrontAppTests/Pods-MoneyfrontApp-MoneyfrontAppTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MoneyfrontApp-MoneyfrontAppTests/Pods-MoneyfrontApp-MoneyfrontAppTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MoneyfrontApp-MoneyfrontAppTests/Pods-MoneyfrontApp-MoneyfrontAppTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -526,7 +526,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 92C95AD60CC622E37BAF5563 /* Pods-MoneyfrontApp-MoneyfrontAppTests.debug.xcconfig */;
+			baseConfigurationReference = CDE0204D6746E2B62C0CE035 /* Pods-MoneyfrontApp-MoneyfrontAppTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -553,7 +553,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 89E13AA62B7F4CF397455513 /* Pods-MoneyfrontApp-MoneyfrontAppTests.release.xcconfig */;
+			baseConfigurationReference = 1E78690B924B6956743145D7 /* Pods-MoneyfrontApp-MoneyfrontAppTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -577,7 +577,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CDBD56DB26F4A343D68F3B09 /* Pods-MoneyfrontApp.debug.xcconfig */;
+			baseConfigurationReference = B74B039087C110E4EA8172E6 /* Pods-MoneyfrontApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -604,7 +604,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 05058DBF60B50E1699D030E4 /* Pods-MoneyfrontApp.release.xcconfig */;
+			baseConfigurationReference = 349104081C0D92E2A8A63A24 /* Pods-MoneyfrontApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
